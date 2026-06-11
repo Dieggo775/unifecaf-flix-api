@@ -1,0 +1,15 @@
+# Dependências
+node_modules/
+npm-debug.log*
+
+# Variáveis de ambiente (nunca versionar)
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+
+# Arquivos temporarios
+tmp/
+temp/
