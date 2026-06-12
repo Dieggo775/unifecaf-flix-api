@@ -53,10 +53,10 @@ async function iniciarServidor() {
 
         app.listen(PORT, () => {
             console.log(`\n╔═══════════════════════════════════════╗`);
-            console.log(`║  UniFECAF Flix API                    ║`);
-            console.log(`║  Servidor rodando na porta ${PORT}     ║`);
-            console.log(`║  Ambiente: ${process.env.NODE_ENV}             ║`);
-            console.log(`╚═══════════════════════════════════════╝\n`);
+            console.log(`  ║  UniFECAF Flix API                    ║`);
+            console.log(`  ║  Servidor rodando na porta ${PORT}    ║`);
+            console.log(`  ║  Ambiente: ${process.env.NODE_ENV}    ║`);
+            console.log(`  ╚═══════════════════════════════════════╝\n`);
             console.log(`Acesse: http://localhost:${PORT}/health\n`);
         });
     } catch (error) {
